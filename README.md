@@ -6,20 +6,21 @@ filetypes.Lammps.conf is setting file for highlighting of [Lammps](https://lammp
 ### How...
 
 1. put filetypes.lammps.conf to ~/.config/geany/filedefs
-1. add `Lammps=*.lmp;in.*;` under `[extensions]` in _.config/geany_ 
+1. in _.config/geany_ 
+	1. add `Lammps=*.lmp;in.*;` under `[extensions]` 
 
-```
-[Extensions]
-...
-Lammps=*.lmp;
-...
-```
+	```
+	[Extensions]
+	...
+	Lammps=*.lmp;
+	...
+	```
 
-and `Lammps;`  under `[Groups]`
+	1. and `Lammps;`  under `[Groups]`
 
-```
-[Groups]
-...
-Script=...;Lammps;
-...
-```
+	```
+	[Groups]
+	...
+	Script=...;Lammps;
+	...
+	```
